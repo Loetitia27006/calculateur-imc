@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #00C9FF, #92FE9D);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+div{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #92FE9D;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text{
+    text-align: left;
+    margin-left: 150px;
+}
+#poids, #taille{
+    color: #00C9FF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #00C9FF;
+    width: 200px;
+}
+#poids:focus, #taille:focus{
+    border-bottom: 2px solid #00C9FF;
+    width: 300px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#result{
+    color: #92FE9D;
+}
+#button{
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(120deg, #00C9FF, #92FE9D);
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+#button:hover{
+    box-shadow: 1px 1px 10px #00C9FF;
+}
